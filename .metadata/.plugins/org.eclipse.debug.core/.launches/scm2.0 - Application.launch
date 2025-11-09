@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.springframework.ide.eclipse.boot.launch">
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/scm2.0/src/main/java/com/scm/scm20/Application.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="CLINT_NAME" value="Google"/>
+        <mapEntry key="CLOUDINARY_API_KEY" value="667736663274398"/>
+        <mapEntry key="CLOUDINARY_API_SECRET" value="KWO-lvQAgS7uWFd8kncDNELTFeE"/>
+        <mapEntry key="CLOUDINARY_NAME" value="dpickzsay"/>
+        <mapEntry key="EMAIL_HOST" value="live.smtp.mailtrap.io"/>
+        <mapEntry key="EMAIL_PASSWORD" value="41455fa57fa1fd7d4dfb42c76351d6b2"/>
+        <mapEntry key="EMAIL_USERNAME" value="smtp@mailtrap.io"/>
+        <mapEntry key="GITHUB_CLINT_ID" value="Iv23lieXAZO959A5aJBS"/>
+        <mapEntry key="GITHUB_CLINT_SECRET" value="2027f7a9bf82b26f05cfd97f2709610edfdc975c"/>
+        <mapEntry key="GOOGLE_CLINT_ID" value="3192394334-uctb996pttihfk8sd4d7erth6cmvqai4.apps.googleusercontent.com"/>
+        <mapEntry key="GOOGLE_CLINT_SECRET" value="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"/>
+    </mapAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.springframework.ide.eclipse.boot.launch.BootMavenClassPathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.scm.scm20.Application"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="scm2.0"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.springframework.ide.eclipse.boot.launch.BootMavenSourcePathProvider"/>
+    <stringAttribute key="process_factory_id" value="org.springframework.ide.eclipse.boot.launch.process.BootProcessFactory"/>
+    <booleanAttribute key="spring.boot.ansi.console" value="true"/>
+    <stringAttribute key="spring.boot.app.properties" value=""/>
+    <booleanAttribute key="spring.boot.auto-connect" value="true"/>
+    <booleanAttribute key="spring.boot.dash.hidden" value="false"/>
+    <booleanAttribute key="spring.boot.debug.enable" value="false"/>
+    <booleanAttribute key="spring.boot.fast.startup" value="true"/>
+    <booleanAttribute key="spring.boot.jmx.enable" value="true"/>
+    <booleanAttribute key="spring.boot.lifecycle.enable" value="true"/>
+    <stringAttribute key="spring.boot.lifecycle.termination.timeout" value="15000"/>
+    <booleanAttribute key="spring.boot.livebean.enable" value="false"/>
+    <stringAttribute key="spring.boot.livebean.port" value="0"/>
+    <stringAttribute key="spring.boot.profile" value=""/>
+</launchConfiguration>

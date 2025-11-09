@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" th:replace="~{base :: parent(~{::#content},~{::#title},~{script})}">
+    <title  id="title">Dashboard Page</title>
+
+</head>
+
+<body>
+    <div id="content">
+
+        <!-- sidebar -->
+        <div data-th-if="${logedinUser}">
+            <div th:replace = "~{user/sidebar :: sidebar}"></div>
+        </div>
+    
+
+    <div class="lg:pl-64 pt-20 " style="height: 1000px" >
+        <div class="flex justify-center flex-col items-center">
+            <h1 class="font-bold text-center md:mt-5 text-5xl">Welcome to Dashboard Page</h1>
+            <p class="pl-3 pt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure sed iusto suscipit laboriosam, illo
+                temporibus officia necessitatibus earum provident rem delectus aut consequatur doloribus accusamus saepe
+                atque labore velit voluptates. Eaque quaerat quasi et placeat cum eos nobis neque animi consectetur
+                itaque magni, quisquam, officiis alias aperiam, nisi delectus consequuntur.</p>
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+package com.scm.scm20;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+@SpringBootApplication
+public class Application {
+    public static void main(String[] args) {
+        ConfigurableApplicationContext ctx = SpringApplication.run(Application.class, args);
+        System.out.println("=== ENVIRONMENT VARIABLES ===");
+        System.out.println(ctx.getEnvironment().getProperty("EMAIL_HOST"));
+        System.out.println(ctx.getEnvironment().getProperty("EMAIL_USERNAME"));
+        System.out.println(ctx.getEnvironment().getProperty("CLINT_NAME"));
+        System.out.println(ctx.getEnvironment().getProperty("CLOUDINARY_API_KEY"));
+        System.out.println(ctx.getEnvironment().getProperty("CLOUDINARY_API_SECRET"));
+        System.out.println(ctx.getEnvironment().getProperty("CLOUDINARY_NAME"));
+        System.out.println(ctx.getEnvironment().getProperty("EMAIL_PASSWORD"));
+        System.out.println(ctx.getEnvironment().getProperty("GITHUB_CLINT_ID"));
+        System.out.println(ctx.getEnvironment().getProperty("GITHUB_CLINT_SECRET"));
+        System.out.println(ctx.getEnvironment().getProperty("GOOGLE_CLINT_ID"));
+        System.out.println(ctx.getEnvironment().getProperty("MY_DB"));
+
+    }
+}
